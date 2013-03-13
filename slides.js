@@ -11,7 +11,7 @@
 */
 
 // var PERMANENT_URL_PREFIX = 'http://html5slides.googlecode.com/svn/trunk/';
-var PERMANENT_URL_PREFIX = 'http://109.123.112.157/git-slides/';
+var PERMANENT_URL_PREFIX = 'http://bigfang.github.com/git-slides/';
 var SLIDE_CLASSES = ['far-past', 'past', 'current', 'next', 'far-next'];
 
 var PM_TOUCH_SENSITIVITY = 15;
