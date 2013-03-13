@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<!--
+    Google HTML5 slide template
+
+    Authors: Luke Mahé (code)
+    Marcin Wichary (code and design)
+
+    Dominic Mazzoni (browser compatibility)
+    Charles Chen (ChromeVox support)
+
+    URL: http://code.google.com/p/html5slides/
+  -->
+
+<html>
+  <head>
+    <title>Git & GitHub</title>
+
+    <meta charset='utf-8'>
+    <script src='slides.js'></script>
+  </head>
+
+  <style>
+    /* Your individual styles here, or just use inline styles if that’s
+    what you want. */
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+
+      <!-- Your slides (<article>s) go here. Delete or comment out the
+           slides below. -->
+
+      <!-- <article class='biglogo'> -->
+      <!-- </article> -->
+
+      <article>
+        <h1>
+          <img src="images/git-logo.png" class="" alt="git & github logo" />
+          <br />
+        </h1>
+        <p>
+          <br />
+          March 08, 2013
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Agenda
+        </h3>
+        <ul>
+          <li>
+            <ul>
+              <span class="">Git</span>
+              <li class="">&nbsp;&nbsp;&nbsp;作为SCM的Git</li>
+              <li class="">&nbsp;&nbsp;&nbsp;Git特点</li>
+              <li class="">&nbsp;&nbsp;&nbsp;Git基本操作</li>
+            </ul>
+          </li>
+          <li>
+            <span class="">&nbsp;&nbsp;&nbsp;Git工作流</span>
+          </li>
+          <li>
+            <ul>
+              <span class="">GitHub</span>
+              <li class="">&nbsp;&nbsp;&nbsp;GitHub历史</li>
+              <li class="">&nbsp;&nbsp;&nbsp;GitHub特点</li>
+              <li class="">&nbsp;&nbsp;&nbsp;浏览GitHub</li>
+            </ul>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Git是
+        </h3>
+        <ul class="build">
+          <li>
+            开源分布式版本控制系统
+          </li>
+          <li>
+            Linus Torvalds为管理linux kernel而开发
+          </li>
+          <li>
+            相对于CSV，SVN，Hg等，已成为最流行的版本控制工具
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          为什么选择Git
+        </h3>
+        <ul class="build">
+          <li>
+            本地版本管理
+          </li>
+          <li>
+            每一份clone都是完整的版本库
+          </li>
+          <li>
+            没有lock folder的烦恼
+          </li>
+          <li>
+            不污染子目录的track文件
+          </li>
+          <li>
+            超轻量级的分支
+          </li>
+          <li>
+            不依赖中心服务器
+          </li>
+          <li>
+            ...
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Git 与 SVN
+        </h3>
+        <img class="centered" style="height: 500px" src="images/git-svn.png" />
+      </article>
+
+      <article>
+        <h3>
+          轻量，快速的Git
+        </h3>
+        <img class="centered" src="images/git-fast.png" />
+      </article>
+
+      <article>
+        <h3>
+          Git基本命令
+        </h3>
+        <ul class="build">
+          <li>
+            <code>
+              <span class="blue">git init</span>
+            </code>
+          </li>
+          <li>
+            <code>
+              <span>git status</span>
+            </code>
+          </li>
+          <li>
+            <code>
+              <span class="blue">git add .</span>
+            </code>
+          </li>
+          <li>
+            <code>
+              git status
+            </code>
+          </li>
+          <li>
+            <code>
+              <span class="blue">git commit -m "初始化代码库"</span>
+            </code>
+          </li>
+          <li>
+            <code>
+              git status
+            </code>
+          </li>
+          <li>
+            <code>
+              git log
+            </code>
+          </li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          Git常用命令
+        </h3>
+        <br />
+        <br />
+        <p>
+          <img class="centered" src="images/git-cmd.png">
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Git工作流
+        </h3>
+        <p>
+          <img class="centered" src="images/git-wf-0.png">
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          Git工作流
+        </h3>
+        <p>
+          <img class="centered" style="height: 500px" src="images/git-wf-1.png">
+        </p>
+      </article>
+      <article>
+        <h3>
+          Git工作流
+        </h3>
+        <p>
+          <img class="centered" style="height: 500px" src="images/git-wf-2.png">
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          GitHub的历史
+        </h3>
+        <ul class="build">
+          <li>由Chris Wanstrath、PJ Hyett和Tom Preston-Werner共同开发</li>
+          <li>使用Ruby on Rails和Erlang编写</li>
+          <li>2008年2月上线</li>
+          <li>在与各种代码托管服务的竞争中中脱颖而出...<a href="https://bitbucket.org/">bitbucket</a>、<a href="http://repo.or.cz/">repo.or.cz</a>、<a href="http://sourceforge.net/">SourceForge</a></li>
+          <li>一直在盈利！</li>
+          <li>口号：社会化编程</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          GitHub概况
+        </h3>
+        <br />
+        <p>
+          <img class="centered" src="images/hub-status.png">
+        </p>
+      </article>
+
+      <article>
+        <h3>
+          GitHub可以
+        </h3>
+        <ul class="build">
+          <li>代码托管</li>
+          <li>issue管理</li>
+          <li>文档wiki</li>
+          <li>产品展示</li>
+          <li>协作编程</li>
+          <li>程序员社交...</li>
+        </ul>
+      </article>
+
+      <article>
+        <h3>
+          浏览GitHub
+        </h3>
+        <ul class="build">
+          <li>
+            <a href="https://github.com/explore">浏览</a>流行的代码仓库
+            <p><img style="width: 700px" src="images/hub-explore.png" /></p>
+          </li>
+          <li>
+            <a href="https://github.com/twitter/bootstrap">项目页面</a>简介
+            <p><img style="width: 700px" src="images/hub-bootstrap.png" /></p>
+          </li>
+          <li>
+            <a href="https://github.com/nathanmarz">个人页面</a>简介
+          </li>
+          <li>
+            <a href="https://gist.github.com/">gist</a>简介
+          </li>
+        </ul>
+      </article>
+
+      <article class="smaller">
+        <h3>
+          一些资源
+        </h3>
+
+        <ul> 教程
+          <li><a href="http://rogerdudler.github.com/git-guide/index.zh.html">git-简易指南</a></li>
+          <li><a href="http://git-scm.com/book/zh">Pro Git</a></li>
+          <li><a href="http://www.worldhello.net/gotgit/">Git权威指南</a></li>
+          <li><a href="http://pcottle.github.com/learnGitBranching/">Learn Git Branch</a></li>
+          <li><a href="http://marklodato.github.com/visual-git-guide/index-zh-cn.html">图解Git</a></li>
+          <li><a href="http://www.worldhello.net/gotgithub/">GitHub权威指南</a></li>
+        </ul>
+        <ul> 工具
+          <li><a href="http://code.google.com/p/msysgit/">msysgit</a></li>
+          <li><a href="http://code.google.com/p/tortoisegit/">TortoiseGit </a></li>
+          <li><a href="https://github.com/github/gitignore">gitignore</a></li>
+          <li><a href="http://gitrep.com/">Discover and Organize Github Repositories</a></li>
+        </ul>
+        <ul> 同类网站
+          <li><a href="http://gitcafe.com/">GitCafe</a></li>
+          <li><a href="http://gitlab.com/">GitLab</a></li>
+        </ul>
+      </article>
+
+    </section>
+
+  </body>
+</html>
